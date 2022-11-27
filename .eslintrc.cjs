@@ -22,6 +22,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'react/function-component-definition': 0,
     'react/react-in-jsx-scope': 0,
   },
 };
