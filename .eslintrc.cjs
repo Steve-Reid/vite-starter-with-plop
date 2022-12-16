@@ -22,7 +22,10 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'no-restricted-exports': 0,
+    'func-names': 0,
     'react/function-component-definition': 0,
     'react/react-in-jsx-scope': 0,
+    '@typescript-eslint/no-empty-interface': 0,
   },
 };

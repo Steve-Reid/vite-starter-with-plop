@@ -1,6 +1,6 @@
-# React Vite/Vitest Starter
+# React Vite/Vitest Starter with Plop
 
-A React TypeScript starter project
+A React TypeScript starter project with a component generator
 
 ## Tech Stack
 
@@ -8,6 +8,7 @@ A React TypeScript starter project
 - React & React DOM v18
 - Type Checker - TypeScript v4.6.4
 - Navigation - [React Router Dom](https://reactrouter.com/en/main/router-components/browser-router) v6.4.1
+- Component Generator - (PlopJs)[https://plopjs.com] v3.1.1
 - Lint - [ESlint v8](https://eslint.org), [AirBnB config](https://www.npmjs.com/package/eslint-config-airbnb) & [AirBnB TypeScript config](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
 - Format - [Prettier](https://prettier.io) v2.7.1
 - Testing - [Vitest](https://vitest.dev) v3.2.3, [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) v13.4.0 & [jsdom](https://github.com/jsdom/jsdom) v20.0.3
@@ -63,6 +64,19 @@ Now the `preview` command will launch the server at http://localhost:8080.
 ### `npm test` or `yarn test`
 
 Launches the test runner ([Vitest](https://vitest.dev)) in the interactive watch mode.\
+
+### `npm run generate` or `yarn gen`
+
+Generates a component.
+
+Generate a single-use component:
+```shell
+npm run generate page <name>
+```
+Generate page called Home:
+```shell
+npm run generate page Home
+```
 
 ## Learn More
 
