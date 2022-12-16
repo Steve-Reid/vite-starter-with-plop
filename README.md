@@ -67,7 +67,7 @@ Launches the test runner ([Vitest](https://vitest.dev)) in the interactive watch
 
 ### `npm run generate` or `yarn gen`
 
-Generates a component.
+Generates a component from a handlebars template.
 
 Generate a single-use component:
 ```shell
